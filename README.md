@@ -129,7 +129,7 @@ function rollDice() {
 /** END OF MAIN PROGAM **/
 ```
 
-### **_Documenter son code_** :nerd::+1: :couleur_de_peau-3: 
+### **_Documenter son code_** :memo: :book: 
 Documenter les grandes étapes nécessaires à l'exécution du code est une bonne habitude à prendre, cela est aussi vrai à plus petites échelles, avec les variables et les fonctions.
 
 ```js
@@ -146,7 +146,7 @@ Lorsque l'on plonge dans les méandres d'un exercice à coder, c'est préciséme
 
 Il est important d'un part de bien comprendre où l'on veut aller mais aussi savoir revenir en arrière pour être sûr que toutes les lignes de code tiennent la route.
 
-Cela revient à traduire en français le comportement des différents blocs de code que l'on écrit. Et pourquoi ne pas l'expliquer à son canard en plastique favori ?! :clin_d'œil:
+Cela revient à **traduire en français** le comportement des différents blocs de code que l'on écrit. Et pourquoi ne pas l'expliquer à son canard en plastique favori ?! :wink:
 
 ![rubberducker](https://www.gravatar.com/avatar/cb86fc582df8ea9a99ef2b3f1ac4e99e?s=328&d=identicon&r=PG)
 
