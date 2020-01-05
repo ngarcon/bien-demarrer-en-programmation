@@ -57,6 +57,36 @@ Il peut s'avérer bien utile de s'y habituer dès maintenant.
 
 ## Organisation du code
 
+### **_L'indentation_** :grin: :trident:
+
+L'indentation est capitale pour la compréhension rapide par le visuel des différents niveau d'imbrications de blocs de code : 
+
+```js
+do {
+    requestedThrowsNb = parseInt(prompt("combien de lancer voulez-vous par joueur ? (6 max.)")); 
+    if  (requestedThrowsNb > 6) {
+        alert("Vous ne pouvez lancer que 6 dès au maximum.")
+    } 
+    if (requestedThrowsNb < 0) {
+        alert("Sérieusement ?! ... -_-'"); 
+    }
+} while (requestedThrowsNb < 0 || requestedThrowsNb > 6 );```
+```
+
+>La hiérarchie code du haut est quand même plus facile à saisir que celle d'en bas et ça même s'il faut prendre le temps de comprendre son rôle.
+
+
+```js
+do {
+requestedThrowsNb = parseInt(prompt("combien de lancer voulez-vous par joueur ? (6 max.)")); if  (requestedThrowsNb > 6) {
+alert("Vous ne pouvez lancer que 6 dès au maximum.")
+} 
+    if (requestedThrowsNb < 0) {
+    alert("Sérieusement ?! ... -_-'"); 
+    }} while (requestedThrowsNb < 0 || requestedThrowsNb > 6 ); 
+```
+
+
 ### **_Les commentaires_** :raised_hand: :speech_balloon:
 
 Il ne faut surtout pas sous-estimer l'importance des commentaires. Bien sûr l'interpréteur ne les lira pas mais ils seront indispensables pour une bonne compréhension globale comme spécifique durant l'élaboration du code et plus tard pour sa maintenance.
@@ -74,35 +104,6 @@ Il ne faut surtout pas sous-estimer l'importance des commentaires. Bien sûr l'i
 
 >Il existe une extension de *VSCode* *VSCodium* qui permet la coloration du code par des signe un peu particulier `//` ,`//?` , `//!` , et bien d'autres. Il vous faudra installer ou vérifier l'installation de l'extension **_Better comments_**.
 
-### **_L'indentation_** :grin: :trident:
-
-L'indentation est capitale pour la compréhension rapide par le visuel des différents niveau d'imbrications de blocs de code : 
-
-```js
-do {
-    requestedThrowsNb = parseInt(prompt("combien de lancer voulez-vous par joueur ? (6 max.)")); 
-    if  (requestedThrowsNb > 6) {
-        alert("Vous ne pouvez lancer que 6 dès au maximum.")
-    } 
-    if (requestedThrowsNb < 0) {
-        alert("Sérieusement ?! ... -_-'"); 
-    }
-} while (requestedThrowsNb < 0 || requestedThrowsNb > 6 );```
-```
-
-
->La hiérarchie code du haut est quand même plus facile à saisir que celle d'en bas et ça même s'il faut prendre le temps de comprendre son rôle.
-
-
-```js
-do {
-requestedThrowsNb = parseInt(prompt("combien de lancer voulez-vous par joueur ? (6 max.)")); if  (requestedThrowsNb > 6) {
-alert("Vous ne pouvez lancer que 6 dès au maximum.")
-} 
-    if (requestedThrowsNb < 0) {
-    alert("Sérieusement ?! ... -_-'"); 
-    }} while (requestedThrowsNb < 0 || requestedThrowsNb > 6 ); 
-```
 
 ### **_Ranger pour s'y retrouver_** :twisted_rightwards_arrows: :bento: 
 
