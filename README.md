@@ -104,7 +104,7 @@ alert("Vous ne pouvez lancer que 6 dès au maximum.")
     }} while (requestedThrowsNb < 0 || requestedThrowsNb > 6 ); 
 ```
 
-### **_Ranger pour s'y retrouver_** :bouton_lire_de_façon_aléatoire: :bento: 
+### **_Ranger pour s'y retrouver_** :twisted_rightwards_arrows: :bento: 
 
  Organiser son code c'est comme faire à manger, on y gagne à s'organiser, surtout quand qu'on est pas encore habitué, voici un exemple parmi d'autres plus bas :
 
